@@ -11,9 +11,9 @@ h1 {
 
 button {
   padding: 10px 15px;
-  background-color: teal;
+  background-color: teal green;
   color: white;
-  border: none;
+  border: blue;
   border-radius: 5px;
   cursor: pointer;
 }
