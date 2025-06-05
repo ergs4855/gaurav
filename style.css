@@ -17,3 +17,63 @@ button {
   border-radius: 5px;
   cursor: pointer;
 }
+.layout {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.sidebar {
+  width: 25%;
+  background-color: #f0f0f0;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.content {
+  flex: 1;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #ffffff;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: calc(50% - 20px);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+footer {
+  background-color: #eee;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+footer a {
+  text-decoration: none;
+  color: #2c3e50;
+  margin: 0 10px;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  padding: 0;
+  margin: 0;
+  background-color: #fafafa;
+}
+
+h1, h2, h3 {
+  color: #2c3e50;
+}
+
+p {
+  margin-bottom: 15px;
+}
